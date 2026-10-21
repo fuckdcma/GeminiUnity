@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MptX9mC9SAI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\.ai-lab\\sandboxes\\EXP_AT38_504ba7f8450f4081afd187ff7dd91677\\SandboxExp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.30\\microsoft.netcore.app.host.win-x64.8.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

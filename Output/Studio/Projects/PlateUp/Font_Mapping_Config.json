@@ -1,0 +1,835 @@
+﻿{
+  "Game": "PlateUp!",
+  "Description": "Bảng ánh xạ font chữ chi tiết 1-1 cho bản dịch Việt hóa (Không dùng 1 font cho tất cả)",
+  "GeneratedAt": "2026-10-17 20:49:55",
+  "FontMappings": [
+    {
+      "OriginalFont": "ARCO SDF",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Chewy SDF",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "English - Main Menu Main Text",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Main Menu Main Text",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Main Menu Text",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "MilkyNice-Clean SDF",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Main Menu Main Text",
+      "TargetReplacement": "Vietnamese_MainMenu_SDF",
+      "Category": "MainMenu",
+      "Role": "Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",
+      "OriginalBase": "Chewy (Cartoon Bold)",
+      "SuggestedStyle": "Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Capriola-Regular SDF",
+      "TargetReplacement": "Vietnamese_Primary_SDF",
+      "Category": "PrimaryText",
+      "Role": "Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",
+      "OriginalBase": "Capriola-Regular",
+      "SuggestedStyle": "Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "English - Primary Text",
+      "TargetReplacement": "Vietnamese_Primary_SDF",
+      "Category": "PrimaryText",
+      "Role": "Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",
+      "OriginalBase": "Capriola-Regular",
+      "SuggestedStyle": "Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Primary Text",
+      "TargetReplacement": "Vietnamese_Primary_SDF",
+      "Category": "PrimaryText",
+      "Role": "Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",
+      "OriginalBase": "Capriola-Regular",
+      "SuggestedStyle": "Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "English - Title Text",
+      "TargetReplacement": "Vietnamese_Title_SDF",
+      "Category": "TitleText",
+      "Role": "Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",
+      "OriginalBase": "",
+      "SuggestedStyle": "Grandstander Bold",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Grandstander-clean SDF",
+      "TargetReplacement": "Vietnamese_Title_SDF",
+      "Category": "TitleText",
+      "Role": "Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",
+      "OriginalBase": "Grandstander / Chewy",
+      "SuggestedStyle": "Bold Display Header nổi bật, nét đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Title Text",
+      "TargetReplacement": "Vietnamese_Title_SDF",
+      "Category": "TitleText",
+      "Role": "Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",
+      "OriginalBase": "Grandstander / Chewy",
+      "SuggestedStyle": "Bold Display Header nổi bật, nét đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Title Text",
+      "TargetReplacement": "Vietnamese_Title_SDF",
+      "Category": "TitleText",
+      "Role": "Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",
+      "OriginalBase": "Grandstander / Chewy",
+      "SuggestedStyle": "Bold Display Header nổi bật, nét đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "English - Large Text",
+      "TargetReplacement": "Vietnamese_Large_SDF",
+      "Category": "LargeText",
+      "Role": "Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",
+      "OriginalBase": "Chewy / ZenzeroGrotesk",
+      "SuggestedStyle": "Heavy Banner Display Font cực đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Large Text",
+      "TargetReplacement": "Vietnamese_Large_SDF",
+      "Category": "LargeText",
+      "Role": "Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",
+      "OriginalBase": "Chewy / ZenzeroGrotesk",
+      "SuggestedStyle": "Heavy Banner Display Font cực đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Large Text",
+      "TargetReplacement": "Vietnamese_Large_SDF",
+      "Category": "LargeText",
+      "Role": "Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",
+      "OriginalBase": "Chewy / ZenzeroGrotesk",
+      "SuggestedStyle": "Heavy Banner Display Font cực đậm",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Upgrade Card Title",
+      "TargetReplacement": "Vietnamese_CardTitle_SDF",
+      "Category": "CardTitle",
+      "Role": "Tên các thẻ nâng cấp (Món ăn mới, Thử thách khách hàng, Tăng độ khó)",
+      "OriginalBase": "Capriola / Chewy",
+      "SuggestedStyle": "Chunky Cartoon dễ thương",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Upgrade Card Text",
+      "TargetReplacement": "Vietnamese_CardText_SDF",
+      "Category": "CardDescription",
+      "Role": "Mô tả chi tiết tác dụng của thẻ nâng cấp",
+      "OriginalBase": "Capriola / NotoSans",
+      "SuggestedStyle": "Sans-Serif tròn trịa, khoảng cách chữ thoáng, dễ đọc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Homade-Bold SDF",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Homade-Regular SDF",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Blueprint Text",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Floor Text",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Front Door Sign",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - In-world Floating Text",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - In-world Labels",
+      "TargetReplacement": "Vietnamese_InWorld_SDF",
+      "Category": "InWorldLabel",
+      "Role": "Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",
+      "OriginalBase": "Homade / Capriola",
+      "SuggestedStyle": "Font nhãn đồ vật rõ ràng, nét sắc",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Consolas SDF",
+      "TargetReplacement": "Vietnamese_Monospace_SDF",
+      "Category": "SeedCode",
+      "Role": "Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",
+      "OriginalBase": "Consolas SDF",
+      "SuggestedStyle": "Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Seed Text",
+      "TargetReplacement": "Vietnamese_Monospace_SDF",
+      "Category": "SeedCode",
+      "Role": "Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",
+      "OriginalBase": "Consolas SDF",
+      "SuggestedStyle": "Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Seed Text",
+      "TargetReplacement": "Vietnamese_Monospace_SDF",
+      "Category": "SeedCode",
+      "Role": "Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",
+      "OriginalBase": "Consolas SDF",
+      "SuggestedStyle": "Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono)",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "HelvetiHand SDF",
+      "TargetReplacement": "Vietnamese_Handwritten_SDF",
+      "Category": "Decorative",
+      "Role": "Chữ viết tay trên bìa báo, thực đơn nhật ký đặc biệt",
+      "OriginalBase": "HelvetiHand / Cake N Truffles",
+      "SuggestedStyle": "Handwriting phong cách viết tay dễ thương",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Newspaper",
+      "TargetReplacement": "Vietnamese_Handwritten_SDF",
+      "Category": "Decorative",
+      "Role": "Chữ viết tay trên bìa báo, thực đơn nhật ký đặc biệt",
+      "OriginalBase": "HelvetiHand / Cake N Truffles",
+      "SuggestedStyle": "Handwriting phong cách viết tay dễ thương",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "NotoEmoji-Regular SDF",
+      "TargetReplacement": "KEEP_ORIGINAL",
+      "Category": "IconsProtected",
+      "Role": "Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",
+      "OriginalBase": "",
+      "SuggestedStyle": "BẢO VỆ NGUYÊN BẢN (Không thay thế)",
+      "IsProtected": true
+    },
+    {
+      "OriginalFont": "Reference - Icons",
+      "TargetReplacement": "KEEP_ORIGINAL",
+      "Category": "IconsProtected",
+      "Role": "Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",
+      "OriginalBase": "",
+      "SuggestedStyle": "BẢO VỆ NGUYÊN BẢN (Không thay thế)",
+      "IsProtected": true
+    },
+    {
+      "OriginalFont": "Reference - Stars",
+      "TargetReplacement": "KEEP_ORIGINAL",
+      "Category": "IconsProtected",
+      "Role": "Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",
+      "OriginalBase": "",
+      "SuggestedStyle": "BẢO VỆ NGUYÊN BẢN (Không thay thế)",
+      "IsProtected": true
+    },
+    {
+      "OriginalFont": "Sprite Text",
+      "TargetReplacement": "KEEP_ORIGINAL",
+      "Category": "IconsProtected",
+      "Role": "Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",
+      "OriginalBase": "",
+      "SuggestedStyle": "BẢO VỆ NGUYÊN BẢN (Không thay thế)",
+      "IsProtected": true
+    },
+    {
+      "OriginalFont": "Active Franchise Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Clothing BBQ Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Confirm Create Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Confirm or Scrap Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Cordon Italic SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Cordon SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Corporate-Logo-Rounded-Bold-ver3 SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Default Icon Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Description Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "English - Info",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Esther-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Face Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Features From Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Finland Rounded Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Font Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Gabinete de Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "GenJyuuGothic-P-Medium SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "GenJyuuGothicX-Bold SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "If the Web Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Info Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Klover SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "LiberationSans SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Licensed under the SIL Open Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Loading Bay Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Lora-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Main Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Menu Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "mohrrounded-black SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "New From Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "New Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "No Virus SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "NotoSansJP-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "NotoSansKR-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "NotoSansSC-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "NotoSansTC-Regular SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Outline Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Overlay Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Paused Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Popup Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Quicksand-Medium SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Level RewardG",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Map Label",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Reward Label",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reference - Sharp Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Research Exit Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Reward Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "See the SIL Open Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "the right to modify the Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "This Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Tier Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Tutorial Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "UI Interactive Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Upgrades Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "Widound SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "with Reserved Font",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "xx old Reference - Reward Label Text",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    },
+    {
+      "OriginalFont": "ZenzeroGroteskSans-Round SDF",
+      "TargetReplacement": "KEEP_OR_FALLBACK",
+      "Category": "FallbackOtherLanguages",
+      "Role": "Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",
+      "OriginalBase": "",
+      "SuggestedStyle": "Giữ nguyên cho người chơi ngôn ngữ khác",
+      "IsProtected": false
+    }
+  ]
+}

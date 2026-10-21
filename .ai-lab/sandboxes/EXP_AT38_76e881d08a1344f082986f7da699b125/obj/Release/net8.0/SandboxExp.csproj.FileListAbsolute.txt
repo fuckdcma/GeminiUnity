@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\bin\Release\net8.0\SandboxExp.exe
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\bin\Release\net8.0\SandboxExp.deps.json
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\bin\Release\net8.0\SandboxExp.runtimeconfig.json
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\bin\Release\net8.0\SandboxExp.dll
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\bin\Release\net8.0\SandboxExp.pdb
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.AssemblyInfo.cs
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.dll
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\refint\SandboxExp.dll
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.pdb
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\SandboxExp.genruntimeconfig.cache
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_76e881d08a1344f082986f7da699b125\obj\Release\net8.0\ref\SandboxExp.dll

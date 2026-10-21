@@ -1,0 +1,4 @@
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_INV_5f50e7905a384ea0850602b79365c3f6\obj\Release\net8.0\SandboxExp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_INV_5f50e7905a384ea0850602b79365c3f6\obj\Release\net8.0\SandboxExp.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_INV_5f50e7905a384ea0850602b79365c3f6\obj\Release\net8.0\SandboxExp.AssemblyInfo.cs
+C:\Users\HP\Desktop\GeminiUnity\.ai-lab\sandboxes\EXP_AT38_INV_5f50e7905a384ea0850602b79365c3f6\obj\Release\net8.0\SandboxExp.csproj.CoreCompileInputs.cache

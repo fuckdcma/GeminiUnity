@@ -1,0 +1,133 @@
+﻿{
+  "ProjectId": "d1e811714a604292b5fecb26ebc8cfe5",
+  "ProjectName": "PlateUp",
+  "GameDirectory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\PlateUp\\PlateUp",
+  "GameExeName": "PlateUp.exe",
+  "UnityVersion": "2020.3.48f1",
+  "Architecture": "Mono",
+  "ModProfile": "BepInEx 5 (Mono x64)",
+  "BaseLanguage": "English (en-US)",
+  "TargetLanguage": "Tiếng Việt (vi-VN)",
+  "CreatedAt": "2026-10-19 18:37:38",
+  "LastModified": "2026-10-19 18:38:10",
+  "CurrentStep": 7,
+  "RawTextCsvPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Raw_Game_Texts.csv",
+  "RawFontsJsonPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Raw_Game_Fonts.json",
+  "LiveTextMappingCsvPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Live_Captured_Text_Mapping.csv",
+  "FontMappingConfigPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Font_Mapping_Config.json",
+  "TranslatedCsvPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Translated_Vietnamese.csv",
+  "CustomFontBundlePath": "",
+  "EncryptedDatPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Vietnamese.dat",
+  "PrereleaseZipPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\PlateUp_VietHoa_Prerelease.zip",
+  "PrereleaseExePath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Setup_VietHoa_PlateUp_Prerelease.exe",
+  "LastPrereleaseZipPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\PlateUp_VietHoa_LastPrerelease.zip",
+  "LastPrereleaseExePath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Setup_VietHoa_PlateUp_LastPrerelease.exe",
+  "ReleaseZipPath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\PlateUp_VietHoa_Release.zip",
+  "ReleaseExePath": "C:\\Users\\HP\\Desktop\\GeminiUnity\\Output\\Studio\\Projects\\PlateUp\\Setup_VietHoa_PlateUp.exe",
+  "Steps": [
+    {
+      "StepNumber": 1,
+      "Title": "Tạo, quản lý Project",
+      "Description": "Tạo, lưu trữ và thiết lập cấu hình thông số dự án Việt hóa.",
+      "Status": "Passed",
+      "Summary": "Đã tạo dự án thành công cho game PlateUp.",
+      "CompletedAt": "2026-10-17 20:49:39"
+    },
+    {
+      "StepNumber": 2,
+      "Title": "Quét cấu trúc game được chọn để chọn chế độ MOD phù hợp",
+      "Description": "Quét tệp thực thi, nhận diện Engine Unity Mono/IL2CPP và tự động chọn chế độ MOD phù hợp.",
+      "Status": "Passed",
+      "Summary": "Phát hiện Mono, đề xuất BepInEx 5 (Mono x64)",
+      "CompletedAt": "2026-10-17 20:49:45"
+    },
+    {
+      "StepNumber": 3,
+      "Title": "Quét Font/Text của game có thể xuất hiện trong Asset, DLL, Bundle,... (Quét Thô)",
+      "Description": "Quét và trích xuất chuỗi text thô và font tiềm năng từ Assets nhị phân, Managed DLLs và Bundles.",
+      "Status": "Passed",
+      "Summary": "Trích xuất 8032 chuỗi thô (2964 GameText gameplay chuẩn) & 92 font.",
+      "CompletedAt": "2026-10-17 20:49:55"
+    },
+    {
+      "StepNumber": 4,
+      "Title": "Cài thử Prototype (Mod Plugins Việt Hoá, Text mẫu, Font mẫu) vào Folder game",
+      "Description": "Cài đặt bản thử nghiệm gồm Mod Plugin, Text mẫu (LIVETEST_1..N) và Font mẫu (ARIAL SDF) vào thư mục game.",
+      "Status": "Passed",
+      "Summary": "Đã cài 24 tệp prototype (kèm Text mẫu & Font mẫu).",
+      "CompletedAt": "2026-10-17 20:50:12"
+    },
+    {
+      "StepNumber": 5,
+      "Title": "Tự bật game, tạo livetest thực tế, thông qua hệ thống hook, ram, màn hình,... để xác định chính xác các thông tin cần thiết như phương pháp hook,mock,... để ra được Text, Font",
+      "Description": "Tự bật game, tạo Live Test thực tế qua hook, RAM, telemetry màn hình để xác định phương pháp hook, mock Text và Font.",
+      "Status": "Passed",
+      "Summary": "Thu thập thành công 10 phần tử UI từ game thật.",
+      "CompletedAt": "2026-10-17 20:50:30"
+    },
+    {
+      "StepNumber": 6,
+      "Title": "Qua Livetest tự bật, Quét text thực trong game (Xác định ngôn ngữ chính (Sau này sẽ MOD) và tất cả ngôn ngữ để đối chiếu) - Mapping text, Thay thử text mẫu vào để làm đánh giá kiểm tra hook (Ưu tiên tạo Log để phân tích lỗi nếu phát sinh)",
+      "Description": "Quét text thực tế trên UI, xác định ngôn ngữ chính và tất cả ngôn ngữ đối chiếu, thay thử text mẫu (LIVETEST_X) để đánh giá kiểm tra hook và tạo log chẩn đoán lỗi.",
+      "Status": "Passed",
+      "Summary": "Đạt: Đã hook thành công 9 text mẫu (LIVETEST_1..N) trên UI game.",
+      "CompletedAt": "2026-10-17 20:50:48"
+    },
+    {
+      "StepNumber": 7,
+      "Title": "Qua Livetest tự bật, quét Font thực trong game (Quét và đánh dấu Font của ngôn ngữ được mod và các ngôn ngữ còn lại) - Mapping Font, Thay thử Font mẫu vào làm đánh giá kiểm tra hook (Ưu tiên tạo Log để phân tích lỗi nếu phát sinh)",
+      "Description": "Quét và đánh dấu font ngôn ngữ mod và các ngôn ngữ còn lại, mapping font, thay thử Font mẫu (ARIAL SDF) để đánh giá kiểm tra hook và tạo log chẩn đoán lỗi.",
+      "Status": "Passed",
+      "Summary": "Đạt: Đã hook thành công 10 font mẫu (Mohr Rounded Black / ARIAL SDF) trên UI game.",
+      "CompletedAt": "2026-10-19 18:38:10"
+    },
+    {
+      "StepNumber": 8,
+      "Title": "Cho phép Xuất/ Nhập file File text/font/Font Mapping để người dùng nhập file đã được việt hoá. mapping chuẩn font cần điều chỉnh",
+      "Description": "Xuất/Nhập file text, font và font mapping để người dùng nạp bản dịch tiếng Việt và cấu hình chuẩn font cần điều chỉnh.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    },
+    {
+      "StepNumber": 9,
+      "Title": "Livetest thực tế sau Việt hoá, kiểm tra hook,ram,màn hình,... về ngôn ngữ, Font chữ, Hiệu ứng Font chữ (Ưu tiên tạo Log để phân tích lỗi nếu phát sinh)",
+      "Description": "Live Test thực tế sau Việt hóa, kiểm tra hook, RAM, màn hình về ngôn ngữ, font chữ, hiệu ứng font chữ và tạo log phân tích lỗi.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    },
+    {
+      "StepNumber": 10,
+      "Title": "Xoá sạch Prototype nếu được đánh dấu là đạt test (để nhà phát hành việt hoá Test trực tiếp ZIP/EXE release)",
+      "Description": "Xóa sạch 100% tệp prototype sau khi đạt test để nhà phát hành kiểm thử trực tiếp gói cài đặt ZIP/EXE release.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    },
+    {
+      "StepNumber": 11,
+      "Title": "Đóng gói tạm (Prerelease) Client Zip, Exe file chưa mã hoá để test lỗi Install, Unpack,...",
+      "Description": "Đóng gói bản Prerelease Client Zip và Exe chưa mã hóa để kiểm thử lỗi cài đặt, giải nén và vận hành.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    },
+    {
+      "StepNumber": 12,
+      "Title": "Nếu sản được đánh đạt trong bước Prerelease, Đóng gói (LastPrerelease) Client Zip, Exe file mã hoá, Test lỗi Install, Unpack,... sau khi mã hoá",
+      "Description": "Đóng gói LastPrerelease mã hóa AES-256 bảo vệ bản quyền khi Prerelease đạt test, kiểm thử lỗi cài đặt và giải nén sau mã hóa.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    },
+    {
+      "StepNumber": 13,
+      "Title": "Nếu LastPrerelease -> Đóng gói Release, Phát hành bản việt hoá",
+      "Description": "Xuất gói cài đặt Release chính thức và hoàn tất phát hành bản Việt hóa tới cộng đồng.",
+      "Status": "NotStarted",
+      "Summary": "",
+      "CompletedAt": ""
+    }
+  ]
+}

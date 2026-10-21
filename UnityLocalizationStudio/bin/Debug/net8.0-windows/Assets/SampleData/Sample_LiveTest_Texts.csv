@@ -1,0 +1,21 @@
+ID,TEXT_MẪU,MoTa_MucDich
+1,LIVETEST_1,Text mẫu 1 - Thử nghiệm hook giao diện chính
+2,LIVETEST_2,Text mẫu 2 - Kiểm tra nạp ký tự Unicode & Tiếng Việt Ă Â Đ Ê Ô Ơ Ư
+3,LIVETEST_3,Text mẫu 3 - Thử nghiệm hook TextMeshPro & UGUI
+4,LIVETEST_4,Text mẫu 4 - Thử nghiệm hook Button & Menu element
+5,LIVETEST_5,Text mẫu 5 - Thử nghiệm hook Popup & Dialog text
+6,LIVETEST_6,Text mẫu 6 - Thử nghiệm Dynamic text & Tham số {0}
+7,LIVETEST_7,Text mẫu 7 - Thử nghiệm Label & Heading
+8,LIVETEST_8,Text mẫu 8 - Thử nghiệm Tooltip & Description
+9,LIVETEST_9,Text mẫu 9 - Thử nghiệm In-game HUD element
+10,LIVETEST_10,Text mẫu 10 - Thử nghiệm Settings & Options menu
+11,LIVETEST_11,Text mẫu 11 - Kiểm tra độ rộng Text bounds & wrap
+12,LIVETEST_12,Text mẫu 12 - Kiểm tra tràn bộ nhớ chuỗi (Buffer overflow test)
+13,LIVETEST_13,Text mẫu 13 - Kiểm tra font rendering & submesh
+14,LIVETEST_14,Text mẫu 14 - Thử nghiệm ký tự đặc biệt [~`!@#$%^&*()]
+15,LIVETEST_15,Text mẫu 15 - Thử nghiệm ngắt dòng CRLF (\r\n)
+16,LIVETEST_16,Text mẫu 16 - Thử nghiệm chuỗi dài và định dạng văn bản
+17,LIVETEST_17,Text mẫu 17 - Kiểm tra hook đối chiếu đa ngôn ngữ
+18,LIVETEST_18,Text mẫu 18 - Kiểm tra đồng bộ chuỗi RAM
+19,LIVETEST_19,Text mẫu 19 - Kiểm tra hook an toàn đa luồng
+20,LIVETEST_20,Text mẫu 20 - Thử nghiệm hoàn tất quy trình Live Test

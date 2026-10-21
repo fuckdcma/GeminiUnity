@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "projectName": "UnityLocalizationStudio",
+  "workspacePath": "C:\\Users\\HP\\Desktop\\GeminiUnity",
+  "workspaceFingerprint": "ULS_20261016_V2",
+  "repoBranch": null,
+  "repoHead": null,
+  "updatedAt": "2026-10-17T16:05:00Z",
+  "sessionId": "SESSION_039",
+  "milestoneId": "M8_LOCAL_AI_RESEARCH_ENGINE",
+  "taskId": "DEPLOY-REAL-LOCAL-AI-RESEARCH-ENGINE-AND-MODULE-FACTORY",
+  "taskStatus": "DONE",
+  "lastVerifiedAtomicAction": "1) Upgraded Step 7 Visual Effects: OutlineWidth 0.30f, Dilate 0.30f, Softness 0.40f, Offset 0.55/-0.80f, UGUI CanvasRenderer material reflection hook; deployed VietnameseLocalizationMod.dll; 2) Implemented SQLite Knowledge Base with FTS5 virtual table, triggers, and full versioned migrations managing 12 entities (ResearchCases, GameFingerprints, Observations, Hypotheses, Strategies, KnowledgeRecords, CapabilityVersions, TestRuns, EvidenceArtifacts, ResearchJobs, Checkpoints, SchemaMigrations); 3) Implemented Capability SDK: ICapability, CapabilityManifest, CapabilityExecutionContext, CapabilityExecutionResult, CapabilityRegistry, and 2 fully functional C# capabilities (VietnameseUnicodeNormalizerCapability for NFC/NFD/diacritics/comparison and TMPDistanceFieldShaderPatchCapability for outline/underlay calibration and 100% rollback); 4) Implemented ModuleFactory and 13-stage Autonomous Research Workflow state machine (DISCOVER -> FINGERPRINT -> HYPOTHESIZE -> STRATEGIZE -> SYNTHESIZE -> SANDBOX_BUILD -> SYNTHETIC_TEST -> EVALUATE -> SELF_HEAL -> CONTRACT_VERIFY -> INTEGRATE -> EVIDENCE_LOG -> PROMOTE) in ResearchOrchestrator; 5) Integrated Developer/Research Mode vs Publisher Mode (100% Offline) in MainStudioForm; 6) Expanded Acceptance Tests to 45/45 (AT-01 to AT-45 PASS 100%); 7) Built Release and published to Output/Studio.",
+  "nextAtomicAction": "User can test AI Lab in UnityLocalizationStudio: 1) Run Autonomous R&D Cycle or inspect Knowledge Base; 2) Live Test Step 7 in PlateUp to verify bold comic outline and drop shadow on buttons and Canvas UI.",
+  "relevantFiles": [
+    "UnityLocalizationStudio/Core/AiLab/KnowledgeDatabase.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/ICapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/CapabilityManifest.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/CapabilityRegistry.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/ModuleFactory.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/Builtin/VietnameseUnicodeNormalizerCapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/Builtin/TMPDistanceFieldShaderPatchCapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/ResearchOrchestrator.cs",
+    "UnityLocalizationStudio/Core/AiLab/ResearchToolRegistry.cs",
+    "UnityLocalizationStudio/Tests/AcceptanceTestRunner.cs",
+    "RuntimeModPlugin/FontFallbackPatcher.cs",
+    "Output/Studio/VietnameseLocalizationMod.dll",
+    "Output/Studio/UnityLocalizationStudio.dll"
+  ],
+  "changedFiles": [
+    "UnityLocalizationStudio/Core/AiLab/KnowledgeDatabase.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/ICapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/CapabilityManifest.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/CapabilityExecutionContext.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/CapabilityRegistry.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/ModuleFactory.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/Builtin/VietnameseUnicodeNormalizerCapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/CapabilitySdk/Builtin/TMPDistanceFieldShaderPatchCapability.cs",
+    "UnityLocalizationStudio/Core/AiLab/ResearchOrchestrator.cs",
+    "UnityLocalizationStudio/Core/AiLab/ResearchToolRegistry.cs",
+    "UnityLocalizationStudio/Tests/AcceptanceTestRunner.cs",
+    "UnityLocalizationStudio/UI/MainStudioForm.cs",
+    "RuntimeModPlugin/FontFallbackPatcher.cs",
+    "Output/Studio/VietnameseLocalizationMod.dll",
+    "Output/Studio/UnityLocalizationStudio.dll",
+    ".ai-lab/STATE.json",
+    ".ai-lab/CHECKPOINT.md"
+  ],
+  "evidencePaths": [
+    ".ai-lab/CHECKPOINT.md",
+    "Output/Studio/UnityLocalizationStudio.exe",
+    "Output/Studio/VietnameseLocalizationMod.dll"
+  ],
+  "commandsAndExitCodes": [
+    {
+      "command": "dotnet build UnityLocalizationStudio -c Release",
+      "exitCode": 0,
+      "summary": "Build succeeded (0 errors, 0 warnings)"
+    },
+    {
+      "command": "dotnet run --project UnityLocalizationStudio -c Release test-at",
+      "exitCode": 0,
+      "summary": "45/45 Acceptance Tests PASS (100%), AT-01 to AT-45 passed"
+    },
+    {
+      "command": "dotnet publish UnityLocalizationStudio -c Release -o Output/Studio",
+      "exitCode": 0,
+      "summary": "Published Release to Output/Studio"
+    }
+  ],
+  "knownFailures": [],
+  "activeBlockers": [],
+  "pendingApprovals": [],
+  "rollbackPoint": null,
+  "apiLabMode": "OLLAMA_LOCAL",
+  "quota": {
+    "source": "UNAVAILABLE",
+    "fiveHourRemainingPercent": null,
+    "weeklyRemainingPercent": null,
+    "dailyRemainingPercent": null,
+    "observedAt": null,
+    "stopReason": null
+  },
+  "checkpointGeneration": 39,
+  "resumeHint": "Read CHECKPOINT.md, user tests Step 7 Live Test or uses AI Lab R&D Orchestrator in UnityLocalizationStudio"
+}

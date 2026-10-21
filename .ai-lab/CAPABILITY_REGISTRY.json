@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "registryName": "UnityLocalizationStudio Capabilities",
+  "updatedAt": "2026-10-16T22:05:00Z",
+  "capabilities": [
+    {
+      "id": "CAP-DISCOVERY-ENGINE-DETECTOR",
+      "name": "Unity Engine & Architecture Detector",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.GameDetector",
+      "category": "Discovery",
+      "description": "Nhận diện engine Unity phiên bản, kiến trúc x64/x86, Mono vs IL2CPP",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/GameDetector.cs",
+      "tests": ["AcceptanceTestRunner"]
+    },
+    {
+      "id": "CAP-EXTRACTION-ODIN-BINARY",
+      "name": "Odin Serializer & Asset Binary Scanner",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.UnityAssetScanner",
+      "category": "Extraction",
+      "description": "Trích xuất chuỗi nhị phân bảo toàn cấu trúc OdinStruct và OdinDictionary",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/UnityAssetScanner.cs",
+      "tests": ["AT-01", "AT-02", "AT-03", "AT-04", "AT-05", "AT-10", "AT-11", "AT-12"]
+    },
+    {
+      "id": "CAP-CLASSIFICATION-SMART",
+      "name": "Smart String Classifier",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.SmartClassifier",
+      "category": "Classification",
+      "description": "Tự động phân biệt GameText vs Technical/Library strings (Newtonsoft, websocket, chat)",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/SmartClassifier.cs",
+      "tests": ["AT-06", "AT-07", "AT-08", "AT-09"]
+    },
+    {
+      "id": "CAP-PROTOTYPE-NONDESTRUCTIVE",
+      "name": "Manifest-Based Non-Destructive Prototype Deployment & Cleanup",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.PrototypeManager",
+      "category": "Deployment",
+      "description": "Cài đặt prototype kèm manifest theo dõi và gỡ sạch 100% không ảnh hưởng file gốc",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/PrototypeManager.cs",
+      "tests": ["ManualVerification", "AcceptanceTestRunner"]
+    },
+    {
+      "id": "CAP-MOCK-TEXT-HOOK-EVALUATION",
+      "name": "Universal Mock Text Hook Evaluation (LIVETEST_1..N)",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.SampleTestManager",
+      "category": "Validation",
+      "description": "Tiêm text mẫu LIVETEST_X vào UI game để kiểm chứng hook TextMeshPro & UGUI",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/SampleTestManager.cs",
+      "tests": ["SampleTestManagerTests", "AT-18"]
+    },
+    {
+      "id": "CAP-FONT-MULTI-1TO1-RESOLVER",
+      "name": "Multi-Font 1-1 Mapping & Strategy Engine",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.FontAssetBundleEngine",
+      "category": "FontManagement",
+      "description": "Phân giải ánh xạ đa phông chữ 1-1 theo từng vai trò UI (Menu, Tiêu đề, Thẻ bài, Monospace), bảo vệ icon/emoji",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/FontAssetBundleEngine.cs",
+      "tests": ["AT-21", "AT-24"]
+    },
+    {
+      "id": "CAP-TMP-MATERIAL-PRESET-CLONER",
+      "name": "TMP Material Preset Cloner & Zero Pink Risk Auditor",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.FontAssetBundleEngine",
+      "category": "FontManagement",
+      "description": "Sao chép Material Preset TextMeshPro Distance Field, bảo toàn Outline/Underlay/Glow, triệt tiêu 100% lỗi Material màu hồng",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/FontAssetBundleEngine.cs",
+      "tests": ["AT-22", "AT-23", "AT-25"]
+    },
+    {
+      "id": "CAP-SECURITY-AES256-RAM-DECRYPT",
+      "name": "In-Memory AES-256 Translation Database",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.EncryptionService",
+      "category": "Security",
+      "description": "Mã hóa cơ sở dữ liệu bản dịch và giải mã trực tiếp trên RAM",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/EncryptionService.cs",
+      "tests": ["EncryptionServiceTests"]
+    },
+    {
+      "id": "CAP-SECURITY-WINDOWS-DPAPI",
+      "name": "Windows Data Protection API (DPAPI) Secret Storage",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.Security.WindowsSecretStore",
+      "category": "Security",
+      "description": "Mã hóa và lưu trữ khóa bảo mật API theo tài khoản Windows người dùng",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/Security/WindowsSecretStore.cs",
+      "tests": ["AT-13"]
+    },
+    {
+      "id": "CAP-AI-LAB-ISOLATED",
+      "name": "R&D AI / API Lab Coordinator & Redaction Engine",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.AiLab.AiLabService",
+      "category": "Diagnostics",
+      "description": "Bộ điều phối AI R&D, che phủ định danh nhạy cảm, thực thi khóa an toàn Offline",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/AiLab/AiLabService.cs",
+      "tests": ["AT-14", "AT-15"]
+    },
+    {
+      "id": "CAP-SYNTHETIC-LIVE-ENGINE",
+      "name": "Unified Synthetic Live Test Runner & Telemetry Engine",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.SyntheticLiveTestRunner",
+      "category": "Simulation",
+      "description": "Mô phỏng toàn diện chu trình Live Test Bước 5-9 không cần mở game thật, bảo vệ PlateUp",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/SyntheticLiveTestRunner.cs",
+      "tests": ["AT-16", "AT-17", "AT-18", "AT-19", "AT-20"]
+    },
+    {
+      "id": "CAP-VERIFICATION-TOKEN-INTEGRITY",
+      "name": "Translation Token & Format Placeholder Validator",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.TranslationValidator",
+      "category": "Validation",
+      "description": "Kiểm định toàn vẹn placeholder format string {0}, thẻ RichText, Sprite tags, chống lỗi crash Unity FormatException và Formula Injection",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/TranslationValidator.cs",
+      "tests": ["AT-26", "AT-28"]
+    },
+    {
+      "id": "CAP-CSV-EXCEL-SAFE-ROUNDTRIP",
+      "name": "Excel-Safe CSV & Unicode Diacritics Engine",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.CsvHandler",
+      "category": "DataExchange",
+      "description": "Bảo toàn số có tiền tố 0, số mũ khoa học (1E10), chuỗi nhiều dòng \\r\\n và toàn bộ tiếng Việt có dấu chuẩn UTF-8",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/CsvHandler.cs",
+      "tests": ["AT-12", "AT-27", "AT-28", "AT-29"]
+    },
+    {
+      "id": "CAP-FONT-ASSETBUNDLE-VERIFICATION-GATE",
+      "name": "Font AssetBundle Binary Inspection & Gatekeeper",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.FontAssetBundleEngine",
+      "category": "FontManagement",
+      "description": "Cổng kiểm định nhị phân chữ ký UnityFS, kích thước và SDF fonts, loại bỏ tệp bundle hỏng trước khi nạp vào Runtime",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/FontAssetBundleEngine.cs",
+      "tests": ["AT-25", "AT-30"]
+    },
+    {
+      "id": "CAP-PROTOTYPE-ZERO-ARTIFACT-CLEANUP",
+      "name": "Zero-Artifact Prototype Uninstaller & Mod Safety Vault",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.PrototypeManager",
+      "category": "Deployment",
+      "description": "Dọn sạch 100% tệp prototype dựa trên manifest mà không xâm phạm tệp game gốc Steam hoặc mod của người chơi",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/PrototypeManager.cs",
+      "tests": ["AT-31"]
+    },
+    {
+      "id": "CAP-PACKAGING-PORTABLE-ZIP-AND-INSTALLER",
+      "name": "Portable Prerelease ZIP & Standalone Installer Packager",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.PackageBuilder",
+      "category": "Packaging",
+      "description": "Đóng gói tự động bản ZIP portable kèm checksum SHA256SUMS.txt và single-file WinForms installer EXE",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/PackageBuilder.cs",
+      "tests": ["AT-32"]
+    },
+    {
+      "id": "CAP-PACKAGING-AES256-ENCRYPTED-DAT",
+      "name": "AES-256 Binary Encrypted Packaging & Zero-Disk RAM Decryption",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.EncryptionService",
+      "category": "Security",
+      "description": "Mã hóa nhị phân bản dịch sang Vietnamese.dat (AES-256-CBC, PBKDF2) và giải mã tức thời trực tiếp trên RAM",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/EncryptionService.cs",
+      "tests": ["AT-33"]
+    },
+    {
+      "id": "CAP-DEPLOYMENT-NONINVASIVE-UNINSTALL-SCRIPT",
+      "name": "Non-Invasive Uninstall Batch Script Generator",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.PackageBuilder",
+      "category": "Deployment",
+      "description": "Sinh script Uninstall_VietHoa.cmd chuẩn UTF-8, chỉ gỡ chính xác file mod việt hóa, bảo vệ tuyệt đối thư mục BepInEx gốc",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/PackageBuilder.cs",
+      "tests": ["AT-34"]
+    },
+    {
+      "id": "CAP-RELEASE-PUBLISHER-GATEKEEPER-PROVENANCE",
+      "name": "Publisher Release Gatekeeper & Provenance Report Generator",
+      "semanticVersion": "1.0.0",
+      "ownerModule": "UnityLocalizationStudio.Core.PackageBuilder",
+      "category": "Release",
+      "description": "Cổng kiểm soát chất lượng phát hành NPH, tính toán mã băm SHA-256 và tự động xuất báo cáo chất lượng Release_Summary_Report.md",
+      "status": "VERIFIED",
+      "implementationReference": "UnityLocalizationStudio/Core/PackageBuilder.cs",
+      "tests": ["AT-35"]
+    }
+  ]
+}

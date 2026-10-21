@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\UnityLocalizationStudio.exe
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\UnityLocalizationStudio.dll
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\UnityLocalizationStudio.deps.json
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\UnityLocalizationStudio.runtimeconfig.json
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\UnityLocalizationStudio.pdb
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\Mono.Cecil.Mdb.dll
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\Mono.Cecil.Pdb.dll
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\Mono.Cecil.Rocks.dll
+C:\Users\HP\Desktop\GeminiUnity\UnityLocalizationStudio_Release\Mono.Cecil.dll

@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\RuntimeModPlugin.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\RuntimeModPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\RuntimeModPlugin.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\RuntimeModPlugin.AssemblyInfo.cs
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\RuntimeModPlugin.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\bin\Release\netstandard2.0\VietnameseLocalizationMod.deps.json
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\bin\Release\netstandard2.0\VietnameseLocalizationMod.dll
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\bin\Release\netstandard2.0\VietnameseLocalizationMod.pdb
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\VietnameseLocalizationMod.dll
+C:\Users\HP\Desktop\GeminiUnity\RuntimeModPlugin\obj\Release\netstandard2.0\VietnameseLocalizationMod.pdb

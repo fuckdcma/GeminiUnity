@@ -1,0 +1,132 @@
+[19:41:19.451] >>> VietnamesePlugin.Awake() STARTED
+[19:41:19.452] [Preload] Đã nạp trước assembly: Kitchen.Common.dll
+[19:41:19.454] [Preload] Đã nạp trước assembly: Kitchen.GameData.dll
+[19:41:19.455] [Preload] Đã nạp trước assembly: Kitchen.Layouts.dll
+[19:41:19.456] [Preload] Đã nạp trước assembly: Unity.InputSystem.dll
+[19:41:19.480] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'ARIAL SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:19.481] [EnsureEssentialGlyphsCovered] Font 'TIMES SDF': Tự động phục hồi glyph 'W' (Unicode 87) từ 'w'.
+[19:41:19.481] [FindAndCacheBestGameTemplateMaterial] Đã lưu mẫu Material chuẩn PlateUp: 'ARIAL SDF Material', Shader='TextMeshPro/Distance Field'
+[19:41:19.481] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'TIMES SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:19.481] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'Vietnamese_Mohr_Rounded_Black_SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:19.485] [FontFallbackPatcher] Đã nạp thành công 9 quy tắc ánh xạ từ JSON: C:\Program Files (x86)\Steam\steamapps\common\PlateUp\PlateUp\BepInEx\plugins\VietnameseLocalization\Font_Mapping_Config.json
+[19:41:19.527] >>> [FontFallbackPatcher] Khởi tạo hoàn tất. Đã nạp 10 font tùy chỉnh từ AssetBundle, 23 quy tắc ánh xạ 1-1.
+[19:41:19.528] >>> [ModMode] Chế độ BƯỚC 7: Live Test Font Mẫu (Ép font sang ARIAL SDF, Không dịch text)
+[19:41:19.532] >>> [SafePatch] Hook thành công: TMP_Text.set_text
+[19:41:19.534] >>> [SafePatch] Hook thành công: TMP_Text.set_font
+[19:41:19.657] >>> [SafePatch] Hook thành công: TextMeshProUGUI.GenerateTextMesh
+[19:41:19.745] >>> [SafePatch] Hook thành công: TextMeshPro.GenerateTextMesh
+[19:41:19.747] >>> [SafePatch] Hook thành công: TMP_SubMesh.UpdateMaterial
+[19:41:19.749] >>> [SafePatch] Hook thành công: TMP_SubMeshUI.UpdateMaterial
+[19:41:19.750] >>> [SafePatch] Hook thành công: ButtonElement.SetLabel
+[19:41:19.753] >>> [SafePatch] Hook thành công: ButtonElement.SetStyle
+[19:41:19.754] >>> [SafePatch] Hook thành công: HeadingElement.SetHeading
+[19:41:19.755] >>> [SafePatch] Hook thành công: LabelElement.SetLabel
+[19:41:19.756] >>> [SafePatch] Hook thành công: TextPanelElement.SetText
+[19:41:19.757] >>> [SafePatch] Hook thành công: PromptedButtonModule.SetLabel
+[19:41:19.760] >>> [SafePatch] Hook thành công: StartMainMenu.Setup
+[19:41:19.765] >>> [SafePatch] Hook thành công: MainMenu.Setup
+[19:41:19.766] >>> [SafePatch] Hook thành công: GlobalLocalisation.get_Item(string)
+[19:41:19.767] >>> [SafePatch] Hook thành công: DictionaryLocalisation.get_Item(string)
+[19:41:19.770] >>> [SafePatch] Hook thành công: AutoGlobalLocal.Awake
+[19:41:19.988] >>> [SafePatch] Hook thành công: GameDataConstructor.BuildGameData
+[19:41:19.991] >>> [SafePatch] Hook thành công: Unlock.Name and Description
+[19:41:19.994] >>> VietnamesePlugin.Awake() FINISHED
+[19:41:20.797] >>> [SceneLoaded] Scene mới: Loading Scene (mode=2). Thực hiện dịch lại toàn bộ text...
+[19:41:20.802] [FindAndCacheBestGameTemplateMaterial] Đã lưu mẫu Material chuẩn PlateUp: 'Alphakind Atlas Material', Shader='TextMeshPro/Distance Field'
+[19:41:20.802] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'ARIAL SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:20.802] [EnsureEssentialGlyphsCovered] Font 'TIMES SDF': Tự động phục hồi glyph 'W' (Unicode 87) từ 'w'.
+[19:41:20.803] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'TIMES SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:20.803] >>> [FontFallbackPatcher] Đã nạp SDF Font từ AssetBundle: 'Vietnamese_Mohr_Rounded_Black_SDF' (File: Sample_vietnamese_font.bundle)
+[19:41:20.803] [FontFallbackPatcher] Đã nạp thành công 9 quy tắc ánh xạ từ JSON: C:\Program Files (x86)\Steam\steamapps\common\PlateUp\PlateUp\BepInEx\plugins\VietnameseLocalization\Font_Mapping_Config.json
+[19:41:20.804] >>> [FontFallbackPatcher] Khởi tạo hoàn tất. Đã nạp 10 font tùy chỉnh từ AssetBundle, 23 quy tắc ánh xạ 1-1.
+[19:41:20.822] >>> VietnamesePlugin.Update() FIRST FRAME RUNNING!
+[19:41:27.124] >>> [SceneLoaded] Scene mới: Primary Game Scene (mode=Single). Thực hiện dịch lại toàn bộ text...
+[19:41:27.222] >>> Postfix_GameDataConstructor_BuildGameData TRIGGERED! Tiêm dữ liệu bản dịch...
+[19:41:27.224] >>> [InjectGameDataDirectly] Gán GlobalLocalisation.Fonts[MainMenu] = Vietnamese_Mohr_Rounded_Black_SDF
+[19:41:27.224] >>> [InjectGameDataDirectly] Gán GlobalLocalisation.Fonts[Default] = ARIAL SDF
+[19:41:27.224] >>> [InjectGameDataDirectly] ĐÃ CẬP NHẬT GlobalLocalisation.Fonts theo ma trận font thành công!
+[19:41:27.229] [CreatePreservedMaterialPreset] Áp dụng bóng đổ & viền PlateUp: 'Vietnamese_Mohr_Rounded_Black_SDF_Alphakind Atlas Material_Preserved', OutlineWidth=0.25, Underlay=(0.85,-0.95, Soft=0.45), Keywords='OUTLINE_ON,UNDERLAY_ON'
+[19:41:27.230] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Main Menu Main Text' (Gốc: 'Reference - Main Menu Main Text') -> 'Vietnamese_Mohr_Rounded_Black_SDF', Material='Vietnamese_Mohr_Rounded_Black_SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Text (TMP))
+[19:41:27.236] >>> [InjectGameDataDirectly] Gán GlobalLocalisation.Fonts[MainMenu] = Vietnamese_Mohr_Rounded_Black_SDF
+[19:41:27.236] >>> [InjectGameDataDirectly] Gán GlobalLocalisation.Fonts[Default] = ARIAL SDF
+[19:41:27.236] >>> [InjectGameDataDirectly] ĐÃ CẬP NHẬT GlobalLocalisation.Fonts theo ma trận font thành công!
+[19:41:27.254] [CreatePreservedMaterialPreset] Áp dụng bóng đổ & viền PlateUp: 'ARIAL SDF_Capriola-Regular Atlas Material_Preserved', OutlineWidth=0.45, Underlay=(0.55,-0.80, Soft=0.40), Keywords='OUTLINE_ON,UNDERLAY_ON'
+[19:41:27.255] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Capriola-Regular SDF' (Gốc: 'Capriola-Regular SDF') -> 'ARIAL SDF', Material='ARIAL SDF_Capriola-Regular Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Description Text)
+[19:41:27.260] [CreatePreservedMaterialPreset] Áp dụng bóng đổ & viền PlateUp: 'ARIAL SDF_Alphakind Atlas Material_Preserved', OutlineWidth=0.27, Underlay=(0.55,-0.55, Soft=0.45), Keywords='OUTLINE_ON,UNDERLAY_ON'
+[19:41:27.261] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Input Text)
+[19:41:27.263] [CreatePreservedMaterialPreset] Áp dụng bóng đổ & viền PlateUp: 'Vietnamese_Mohr_Rounded_Black_SDF_Alphakind Atlas Material_Preserved', OutlineWidth=0.25, Underlay=(0.49,-0.55, Soft=0.33), Keywords='OUTLINE_ON,UNDERLAY_ON'
+[19:41:27.263] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Title Text' (Gốc: 'Reference - Title Text') -> 'Vietnamese_Mohr_Rounded_Black_SDF', Material='Vietnamese_Mohr_Rounded_Black_SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.398] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.399] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.399] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.400] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.401] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.401] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.402] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.402] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.407] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.407] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.408] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.422] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.422] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.424] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.424] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.425] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.428] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.432] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.433] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.433] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.434] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.435] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.437] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.438] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.438] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.458] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.459] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.459] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.460] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.460] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.461] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.461] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.462] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.465] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.466] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.467] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.472] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.472] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.473] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.474] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.475] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.488] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.492] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.493] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.494] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.495] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.496] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.497] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.500] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.500] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.501] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.506] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.507] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.508] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.508] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.509] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.510] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.510] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:27.514] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.261] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Main Menu Main Text' (Gốc: 'Reference - Main Menu Main Text') -> 'Vietnamese_Mohr_Rounded_Black_SDF', Material='Vietnamese_Mohr_Rounded_Black_SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshProUGUI, Obj: UsernameDisplay)
+[19:41:31.955] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.956] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.958] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.958] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.963] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.963] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.964] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.964] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.965] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.965] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.965] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Reference - Primary Text' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.966] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.966] [AttachFallbackFont] ĐÃ BẢO TOÀN NGUYÊN BẢN HIỆU ỨNG GỐC: 'Vietnamese_Mohr_Rounded_Black_SDF' (Gốc: 'Reference - Primary Text') -> 'ARIAL SDF', Material='ARIAL SDF_Alphakind Atlas Material_Preserved' (Comp: TextMeshPro, Obj: Title)
+[19:41:31.966] >>> Postfix_StartMainMenu_Setup chạy!

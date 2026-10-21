@@ -1,0 +1,58 @@
+[
+  {
+    "OriginalFont": "*",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "Universal_Mock_Font",
+    "IsProtected": false,
+    "Notes": "Font mẫu chung toàn cầu (Universal Arial SDF) chứa đầy đủ ký tự thế giới & tiếng Việt cho thử nghiệm hook"
+  },
+  {
+    "OriginalFont": "Default",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "DefaultFont",
+    "IsProtected": false,
+    "Notes": "Ánh xạ font mặc định hệ thống sang ARIAL SDF"
+  },
+  {
+    "OriginalFont": "LiberationSans SDF",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "StandardUnityFont",
+    "IsProtected": false,
+    "Notes": "Ánh xạ font chuẩn Unity TextMeshPro sang ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Arial SDF",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "StandardFont",
+    "IsProtected": false,
+    "Notes": "Ánh xạ Arial sang ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Icons",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Icon/Symbol của Game"
+  },
+  {
+    "OriginalFont": "Emoji",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Emoji của Game"
+  },
+  {
+    "OriginalFont": "Reference - Icons",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Icon hệ thống PlateUp và các game Unity khác"
+  },
+  {
+    "OriginalFont": "NotoEmoji-Regular SDF",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Emoji Noto"
+  }
+]

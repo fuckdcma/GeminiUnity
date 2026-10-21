@@ -1,0 +1,93 @@
+﻿Original_Font_Name,Target_Replacement_Font,Category,Role_Description,Original_Base_Font,Suggested_Style,Is_Protected,Asset_Source
+ARCO SDF,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+Chewy SDF,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+English - Main Menu Main Text,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+Main Menu Main Text,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+Main Menu Text,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+MilkyNice-Clean SDF,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+Reference - Main Menu Main Text,Vietnamese_MainMenu_SDF,MainMenu,"Nút bấm Menu chính, Cài đặt, Chọn chế độ chơi (Giao diện chính)",Chewy (Cartoon Bold),"Chunky Cartoon Bold có bo tròn & viền đậm (ví dụ Chewy Việt hóa, Baloo 2, Comfortaa)",FALSE,resources.assets
+Capriola-Regular SDF,Vietnamese_Primary_SDF,PrimaryText,"Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",Capriola-Regular,"Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",FALSE,resources.assets
+English - Primary Text,Vietnamese_Primary_SDF,PrimaryText,"Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",Capriola-Regular,"Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",FALSE,resources.assets
+Primary Text,Vietnamese_Primary_SDF,PrimaryText,"Văn bản hội thoại, mô tả công thức nấu ăn, hướng dẫn chơi, HUD",Capriola-Regular,"Rounded Sans-Serif rõ nét, cân đối mọi cỡ chữ",FALSE,resources.assets
+English - Title Text,Vietnamese_Title_SDF,TitleText,"Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",,Grandstander Bold,FALSE,resources.assets
+Grandstander-clean SDF,Vietnamese_Title_SDF,TitleText,"Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",Grandstander / Chewy,"Bold Display Header nổi bật, nét đậm",FALSE,resources.assets
+Reference - Title Text,Vietnamese_Title_SDF,TitleText,"Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",Grandstander / Chewy,"Bold Display Header nổi bật, nét đậm",FALSE,resources.assets
+Title Text,Vietnamese_Title_SDF,TitleText,"Tiêu đề các bảng popup, Tên nhà hàng, Tiêu đề nhiệm vụ",Grandstander / Chewy,"Bold Display Header nổi bật, nét đậm",FALSE,resources.assets
+English - Large Text,Vietnamese_Large_SDF,LargeText,"Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",Chewy / ZenzeroGrotesk,Heavy Banner Display Font cực đậm,FALSE,resources.assets
+Large Text,Vietnamese_Large_SDF,LargeText,"Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",Chewy / ZenzeroGrotesk,Heavy Banner Display Font cực đậm,FALSE,resources.assets
+Reference - Large Text,Vietnamese_Large_SDF,LargeText,"Thông báo ngày mới (Day 1..15), Banner thăng cấp, Chữ đếm giờ",Chewy / ZenzeroGrotesk,Heavy Banner Display Font cực đậm,FALSE,resources.assets
+Reference - Upgrade Card Title,Vietnamese_CardTitle_SDF,CardTitle,"Tên các thẻ nâng cấp (Món ăn mới, Thử thách khách hàng, Tăng độ khó)",Capriola / Chewy,Chunky Cartoon dễ thương,FALSE,resources.assets
+Reference - Upgrade Card Text,Vietnamese_CardText_SDF,CardDescription,Mô tả chi tiết tác dụng của thẻ nâng cấp,Capriola / NotoSans,"Sans-Serif tròn trịa, khoảng cách chữ thoáng, dễ đọc",FALSE,resources.assets
+Homade-Bold SDF,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Homade-Regular SDF,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Reference - Blueprint Text,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Reference - Floor Text,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Reference - Front Door Sign,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Reference - In-world Floating Text,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Reference - In-world Labels,Vietnamese_InWorld_SDF,InWorldLabel,"Nhãn tên thiết bị bếp, bảng chỉ dẫn ngoài cửa, chữ in trên sàn",Homade / Capriola,"Font nhãn đồ vật rõ ràng, nét sắc",FALSE,resources.assets
+Consolas SDF,Vietnamese_Monospace_SDF,SeedCode,"Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",Consolas SDF,Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono),FALSE,resources.assets
+Reference - Seed Text,Vietnamese_Monospace_SDF,SeedCode,"Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",Consolas SDF,Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono),FALSE,resources.assets
+Seed Text,Vietnamese_Monospace_SDF,SeedCode,"Ký tự mã Map (Seeded Run), mã phòng kết nối, số kỹ thuật",Consolas SDF,Monospace đơn cách (ví dụ Consolas hoặc JetBrains Mono),FALSE,sharedassets1.assets
+HelvetiHand SDF,Vietnamese_Handwritten_SDF,Decorative,"Chữ viết tay trên bìa báo, thực đơn nhật ký đặc biệt",HelvetiHand / Cake N Truffles,Handwriting phong cách viết tay dễ thương,FALSE,resources.assets
+Reference - Newspaper,Vietnamese_Handwritten_SDF,Decorative,"Chữ viết tay trên bìa báo, thực đơn nhật ký đặc biệt",HelvetiHand / Cake N Truffles,Handwriting phong cách viết tay dễ thương,FALSE,resources.assets
+NotoEmoji-Regular SDF,KEEP_ORIGINAL,IconsProtected,"Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",,BẢO VỆ NGUYÊN BẢN (Không thay thế),TRUE,resources.assets
+Reference - Icons,KEEP_ORIGINAL,IconsProtected,"Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",,BẢO VỆ NGUYÊN BẢN (Không thay thế),TRUE,resources.assets
+Reference - Stars,KEEP_ORIGINAL,IconsProtected,"Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",,BẢO VỆ NGUYÊN BẢN (Không thay thế),TRUE,resources.assets
+Sprite Text,KEEP_ORIGINAL,IconsProtected,"Ký hiệu biểu tượng game (Nhiệt độ, Tiền xu, Dao kéo, Người chơi)",,BẢO VỆ NGUYÊN BẢN (Không thay thế),TRUE,resources.assets
+Active Franchise Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Clothing BBQ Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Confirm Create Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Confirm or Scrap Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Cordon Italic SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Cordon SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Corporate-Logo-Rounded-Bold-ver3 SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Default Icon Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Description Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+English - Info,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Esther-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Face Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Features From Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Finland Rounded Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Font Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Gabinete de Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+GenJyuuGothic-P-Medium SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+GenJyuuGothicX-Bold SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+If the Web Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Info Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Klover SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+LiberationSans SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Licensed under the SIL Open Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Loading Bay Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Lora-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Main Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Menu Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+mohrrounded-black SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+New From Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+New Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+No Virus SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+NotoSansJP-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+NotoSansKR-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+NotoSansSC-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+NotoSansTC-Regular SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Outline Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Overlay Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets0.assets
+Paused Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Popup Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Quicksand-Medium SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Reference - Level RewardG,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Reference - Map Label,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Reference - Reward Label,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Reference - Sharp Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Research Exit Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Reward Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+See the SIL Open Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+the right to modify the Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+This Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Tier Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Tutorial Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+UI Interactive Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+Upgrades Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,sharedassets1.assets
+Widound SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+with Reserved Font,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+xx old Reference - Reward Label Text,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets
+ZenzeroGroteskSans-Round SDF,KEEP_OR_FALLBACK,FallbackOtherLanguages,"Phông ký tự ngôn ngữ quốc tế (Nga, Nhật, Hàn, Trung)",,Giữ nguyên cho người chơi ngôn ngữ khác,FALSE,resources.assets

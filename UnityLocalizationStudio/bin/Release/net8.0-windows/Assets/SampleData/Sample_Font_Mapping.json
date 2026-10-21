@@ -1,0 +1,156 @@
+[
+  {
+    "OriginalFont": "Reference - Main Menu Main Text",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Font nút bấm Menu chính (Dạng Chewy Bold) -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Chewy SDF",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Font Chewy Menu chính -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Chewy",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Font Chewy -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Capriola-Regular SDF",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "PrimaryText",
+    "IsProtected": false,
+    "Notes": "Font phụ/nội dung game (Capriola) -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "Reference - Primary Text",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "PrimaryText",
+    "IsProtected": false,
+    "Notes": "Font nội dung chính của game -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "Reference - Title Text",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "TitleText",
+    "IsProtected": false,
+    "Notes": "Font tiêu đề Popup/Title -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Grandstander-clean SDF",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "TitleText",
+    "IsProtected": false,
+    "Notes": "Font Grandstander tiêu đề -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "ARCO SDF",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Font ARCO phong cách chunky -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "ARCO",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Font ARCO -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "MilkyNice-Clean SDF",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "SpecialMenu",
+    "IsProtected": false,
+    "Notes": "Font MilkyNice -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "English - Main Menu Main Text",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "MainMenu",
+    "IsProtected": false,
+    "Notes": "Container Main Menu -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "English - Primary Text",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "PrimaryText",
+    "IsProtected": false,
+    "Notes": "Container Primary Text -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "English - Title Text",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "TitleText",
+    "IsProtected": false,
+    "Notes": "Container Title Text -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "English - Large Text",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "LargeText",
+    "IsProtected": false,
+    "Notes": "Container Large Text -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "Reference - Upgrade Card Title",
+    "TargetReplacement": "ARIAL SDF",
+    "Category": "CardTitle",
+    "IsProtected": false,
+    "Notes": "Thẻ nâng cấp Title -> Thay bằng ARIAL SDF"
+  },
+  {
+    "OriginalFont": "Reference - Upgrade Card Text",
+    "TargetReplacement": "TIMES SDF",
+    "Category": "CardText",
+    "IsProtected": false,
+    "Notes": "Thẻ nâng cấp Nội dung -> Thay bằng TIMES SDF"
+  },
+  {
+    "OriginalFont": "Icons",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Icon/Symbol của Game"
+  },
+  {
+    "OriginalFont": "Emoji",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Emoji của Game"
+  },
+  {
+    "OriginalFont": "Reference - Icons",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Icon hệ thống PlateUp và các game Unity khác"
+  },
+  {
+    "OriginalFont": "NotoEmoji-Regular SDF",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Emoji Noto"
+  },
+  {
+    "OriginalFont": "Sprites",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Sprite đồ họa"
+  },
+  {
+    "OriginalFont": "Stars",
+    "TargetReplacement": "KEEP_ORIGINAL",
+    "Category": "Protected",
+    "IsProtected": true,
+    "Notes": "Bảo vệ Font Sao đánh giá"
+  }
+]
